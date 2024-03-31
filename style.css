@@ -1,0 +1,88 @@
+
+
+.logo  {background-color: white;
+    height: 200px;
+    background-image:url(../images/Logo.png);
+    background-repeat: no-repeat;
+    background-position: left;       
+} 
+
+.center {
+    height: 10%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+}
+
+
+
+.center a {
+    color: rgb(0, 83, 94);
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family:gotham;
+  }
+  
+
+.column {
+    display: flex;
+    height: 650px;
+    width: 800px;
+    flex-direction: column;
+    margin: 0 auto;
+
+}
+.Hello{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.Hello {
+    margin-right: 20%;
+    background-image: url(../images/Ant.png);
+}
+
+
+.text {
+
+    width: 800%;
+    height: 25px;
+    padding: 25px;
+    color:  rgb(71, 71, 71);
+}
+.text p {
+    color: rgb(71, 71, 71);
+    font-family: gotham, Helvetica, sans-serif;
+  }
+  .text h1 {
+    color: rgb(0, 83, 94);
+    font-family: gotham;
+  }
+
+.footer {
+  padding: 50px;
+  height: 400px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+
+}
+.fb, .in, .ig {
+  margin-left: 5px;
+  padding: 5px 10px;
+  background-color: rgb(71, 71, 71);
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-family: gotham;
+  font-weight: regular;
+  text-decoration: none;
+}
